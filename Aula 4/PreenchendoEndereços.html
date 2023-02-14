@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Endereços</title>
+</head>
+<body style="background: wheat;">
+    <h1>Endereços Tech4me</h1> 
+<hr>    
+    <form method="post" action="/servidor/tech4me"> 
+        <input type="text" name="Rua" placeholder="Rua"><br>
+        <input type="number" name="Número" placeholder="Número"><br>
+        <input type="text" name="Bairro" placeholder="Bairro"><br> 
+        <input type="text" name="Cidade" placeholder="Cidade"><br> 
+
+    <div>
+        <select name="estado" required>
+            <option value="">None</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option>
+            <option value="mg">Minas Gerais</option>
+        </select> <br>
+      <br> 
+    </div>
+
+    <div>
+        <input type="radio" name="marcar" checked="A">O endereço é o mesmo da cobrança <br>
+        <br>
+    </div>
+
+    <div>
+        <button formaction="http://localhost:3003/alunos">Incluir Endereço</button>
+    </div>
+    
+</form>    
+</body>
+</html>
